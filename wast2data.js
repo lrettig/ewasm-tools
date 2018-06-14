@@ -3,7 +3,7 @@ const argv = require('minimist')(process.argv.slice(2))
 const fs = require('fs')
 
 // read input WAST
-const inputFile = argv.e ? argv.e : undefined
+const inputFile = argv._[0]
 if (!inputFile)
   throw new Error("Missing input file")
 

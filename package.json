@@ -9,6 +9,7 @@
   "author": "Lane Rettig <lane@ethereum.org>",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.10",
     "minimist": "^1.2.0",
     "wabt": "^1.0.0"
   }
