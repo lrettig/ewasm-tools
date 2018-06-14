@@ -1,0 +1,15 @@
+{
+  "name": "ewasm-tools",
+  "version": "1.0.0",
+  "description": "ewasm toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lane Rettig <lane@ethereum.org>",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "wabt": "^1.0.0"
+  }
+}
