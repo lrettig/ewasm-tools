@@ -17,5 +17,9 @@ const bin = mod.toBinary({log: false, write_debug_names: false}).buffer
 mod.destroy()
 
 // print out the final string
-console.log(bin.reduce((prev, cur) => prev + "\\" + cur.toString(16).padStart(2, '0'), ""))
+const arr = bin.reduce((prev, cur) => prev + "\\" + cur.toString(16).padStart(2, '0'), "")
+console.log(arr)
+
+// print length
+console.error('Length:', bin.length)
 
